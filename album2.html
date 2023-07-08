@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Albums Page</title>
+	<link rel="stylesheet" type="text/css" href="album.css">
+     <style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #000;
+		}
+
+		video#bg-video {
+			position: fixed;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			z-index: -1;
+		}
+	</style>
+</head>
+<body>
+     <video id="bg-video" autoplay loop muted>
+		<source src="bg2.mp4" type="video/mp4">
+	</video>
+	<header>
+		<div class="logo">
+			<img src="logo.jpg" style="border-radius: 30%;">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+		    <li><a href="albumss.html" style="color: burlywood;">Albums</a></li>
+		    <li><a href="albumpage.html">Artists</a></li>
+		    <li><a href="aboutus.html" >Aboutus</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="album-section">
+			<div class="album-info">
+				<div class="album-image">
+					<img src="playlist2.jpg">
+				</div>
+				<div class="album-actions">
+					<button class="like-btn">Like</button>
+					<button class="comment-btn">Comment</button>
+				</div>
+			</div>
+			<div class="song-list">
+				<ul>
+					<li class="song">
+						<div class="song-details">
+							<img src="a2s1.jpg" width="50px" height="50px">
+							<h3>Jaan hai meri</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a2m1.mp3" type="audio/mpeg">
+                              </audio>
+						<div class="song-actions">
+							<button class="heat-btn">Heart</button>
+						</div>
+					</li>
+					<li class="song">
+						<div class="song-details">
+							<img src="a2s2.webp">
+							<h3>Pasoori</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a2m2.mp3" type="audio/mpeg">
+                              </audio>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+					<li class="song">
+						<div class="song-details">
+							<img src="a2s3.jpg">
+							<h3>rait zara (Atrangi re)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a2m3.mp3" type="audio/mpeg">
+                              </audio>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+                         <li class="song">
+						<div class="song-details">
+							<img src="a2s4.jpg">
+							<h3> Roohi (horror)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a2m4.mp3" type="audio/mpeg">
+                              </audio>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+                         <li class="song">
+						<div class="song-details">
+							<img src="a2s5.jpg">
+							<h3>Oo Saathi (Baaghi 2)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a2m5.mp3" type="audio/mpeg">
+                              </audio>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Music Company. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>

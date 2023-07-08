@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Albums Page</title>
+	<link rel="stylesheet" type="text/css" href="album.css">
+	<style>
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+	}
+
+	video#bg-video {
+		position: fixed;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -1;
+	}
+	header {
+     background-color: #333;
+     color: #fff;
+     padding: 10px;
+   }
+   
+   nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   
+   nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+   }
+   
+   nav li {
+     margin: 0 10px;
+   }
+   
+   nav a {
+     color: #fff;
+     text-decoration: none;
+   }
+
+	</style>
+</head>
+<body>
+	<video id="bg-video" autoplay loop muted>
+		<source src="bg2.mp4" type="video/mp4">
+	</video>
+	<header>
+		<nav>
+		  <ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="albumss.html"  style="color: burlywood;">Albums</a></li>
+		    <li><a href="albumpage.html">Artists</a></li>
+		    <li><a href="aboutus.html" >Aboutus</a></li>
+		  </ul>
+		</nav>
+	   </header>
+	<main>
+		<section class="album-section">
+			<div class="album-info">
+				<div class="album-image">
+					<img src="playlist1.jpg">
+				</div>
+				<div class="album-actions">
+					<button class="like-btn">Like</button>
+					<button class="comment-btn">Comment</button>
+				</div>
+			</div>
+			<div class="song-list">
+				<ul>
+					<li class="song">
+						<div class="song-details">
+							<img src="a1s1.jpg" width="50px" height="50px">
+							<h3>Aa Antey Amalapuram</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a1m1.mp3" type="audio/mpeg">
+                              </audio>&nbsp;&nbsp;&nbsp;
+							  <p><strong>4:27</strong></p>
+						<div class="song-actions">
+							<button class="heat-btn">Heart</button>
+						</div>
+					</li>
+					<li class="song">
+						<div class="song-details">
+							<img src="a1s2.jpg">
+							<h3>Pakka Local (Janatha Garage)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a1m22.mp3" type="audio/mpeg">
+                              </audio>&nbsp;&nbsp;&nbsp;
+							  <p><strong>4:19</strong></p>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+					<li class="song">
+						<div class="song-details">
+							<img src="a1s3.png">
+							<h3>Kevvu Keka (Gabbar Singh)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a1m3.mp3" type="audio/mpeg">
+                              </audio>&nbsp;&nbsp;&nbsp;
+							  <p><strong>4:07</strong></p>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+                         <li class="song">
+						<div class="song-details">
+							<img src="a1s4.jpg">
+							<h3>Manohari (Baahubali)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a1m4.mp3" type="audio/mpeg">
+                              </audio>&nbsp;&nbsp;&nbsp;
+							  <p><strong>3:34</strong></p>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+                         <li class="song">
+						<div class="song-details">
+							<img src="a1s5.jpg">
+							<h3>Ra Ra Rakkamma (VR)</h3>
+						</div>
+                              <audio controls>
+                                   <source src="a1m2.mp3" type="audio/mpeg">
+                              </audio>&nbsp;&nbsp;&nbsp;
+							  <p><strong>3:38</strong></p>
+						<div class="song-actions">
+							<button class="heat-btn">Heat</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	
+<footer>
+	<p>Copyright &copy; 2023, International Institute of Information Technology, Hyderabad. All rights reserved <a href="aboutus.html" style="color : burlywood">Aboutus</a></p>
+</footer>
+</body>
+</html>
